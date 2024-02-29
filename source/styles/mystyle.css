@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+body {
+    font-family: Josefin+Sans, serif;
+    background: linear-gradient(90deg, #007bff 0%, #f9c8c8 100%);
+}
+
+.nav-link {
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active {
+    color: rgb(49, 102, 77);
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-toggler {
+    background-color: bisque;
+}
+
+.card {
+    background: linear-gradient(90deg, #ffffff 0%, #f6d3fd 100%);
+}
+
+.slide-text,
+.footer-text {
+    margin: auto auto;
+}
+
+footer {
+
+    background: #fad2d2;
+    border-style: solid;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    border-width: 0.5px;
+}
+
+.call {
+    animation: myAnim 2s ease 2s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
